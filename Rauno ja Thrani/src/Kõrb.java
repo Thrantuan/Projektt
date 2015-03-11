@@ -15,17 +15,6 @@ public class Kõrb extends Main {
         if (üles_alla.equals("üles")) {
             System.out.println("läksid üles");
             random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-            random.random();
-
             //Lae next meetod
         }else if(üles_alla.equals("alla")){
             System.out.println("valisite allatee..;)");
