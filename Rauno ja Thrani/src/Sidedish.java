@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Random;
 
 
 public class Sidedish {
@@ -8,10 +7,16 @@ public class Sidedish {
 
 
     public void event(){
-        ArrayList<String> eventid = new ArrayList<String>();
-        eventid.addAll(Arrays.asList("Corru", "Mikk", "Mihkel"));
-        if valitud == corru:
-        corru();
+        String[] eventid = {"Tuan", "Rauno", "Cornelia"};
+        Random suva = new Random();
+        String a = eventid[suva.nextInt(eventid.length)];
+        if(a.equals("Tuan")){
+            tuan();
+        }else if (a == ""){
 
+        }
+    }
+    public void tuan(){
+        System.out.println("Näed oma ees dzinni. Ta tutvustab end kui 'Tuan'. Mida teha?");
     }
 }
