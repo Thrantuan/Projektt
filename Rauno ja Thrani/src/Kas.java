@@ -7,7 +7,7 @@ public class Kas extends Main {
     }
 
     public void random(){
-        int õnn = rand.nextInt(2);
+        int õnn = rand.nextInt(3);
         System.out.println(õnn);
     }
 }
