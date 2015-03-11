@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Mis on sinu(Kangelase) nimi?");
         String nimi = scan.next();
         System.out.println("Tere "+ nimi + ", oled kangelane, kelle elutee avaneb järgmise 5-10 minuti jooksul. Elus tuleb valida ja valida tuleb hästi, muidu ootab sind sama saatus mis teisi..");
-
+        //said v??
 
 
         while(true){
