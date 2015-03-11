@@ -9,8 +9,12 @@ public class Kas extends Main {
     public void random(){
         int õnn = rand.nextInt(3);
         System.out.println(õnn);
-        if(õnn == 0){
+        if(õnn == 2){
             event.event();
+        }else if(õnn == 1){
+            //kaklus
+        }else{
+            //do nothing
         }
     }
 }

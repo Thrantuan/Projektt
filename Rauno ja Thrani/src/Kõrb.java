@@ -14,8 +14,7 @@ public class Kõrb extends Main {
         String üles_alla = scan.next();
         if (üles_alla.equals("üles")) {
             System.out.println("läksid üles");
-            random.random();
-            //Lae next meetod
+            üles();
         }else if(üles_alla.equals("alla")){
             System.out.println("valisite allatee..;)");
 
@@ -24,9 +23,9 @@ public class Kõrb extends Main {
             System.out.println("Kas sa meelega trükid halvasti?");
             kõrb_algus();
         }
-
-
-
+    }
+    public void üles(){
+        random.random();
     }
 
 }
